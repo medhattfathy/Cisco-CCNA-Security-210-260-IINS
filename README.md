@@ -7,12 +7,30 @@
 # Table of Contents
 
 
+- [Port Security ](#Port-Security)
+    - [Port Security](#troubleshoot-Port-Security)
+
 
 - [PVLAN ](#PVLAN)
     - [Troubleshoot PVLAN](#troubleshoot-PVLAN)
+    
 
 
 
+
+
+
+
+## Port-Security
+
+| Command                                                              | Description                                                                       |
+|:---------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| Switch(config)# interface FastEthernet 0/1                           | enter interface                                                                   |
+| Switch(config-if)# switchport mode access                            | set the interface to access mode.                                                 |
+| Switch(config-if)# switchport port-security                          | enables the port security on a switch.                                            |
+| Switch(config-if)# switchport port-security maximum max-addr         | specify the maximum number of MAC addresses {1-1024}                              |
+| Switch(config-if)#switchport port-security mac-address 0013.0002.0023| define one or more MAC addresses that are allowed on a switch interface           |
+| 
 
 
 
@@ -48,4 +66,7 @@
 |:------------------------------------------------------------------|:----------------------------------------------------------------------------------|
 | SW1# show vlan private-vlan                                       |  gives us valuable information                                                    |
 | SW1# show vlan private-vlan type                                  |  gives us a quick overview of the private VLANs                                   | 
+
+
+
 
