@@ -7,8 +7,7 @@
 
 
 - [PVLAN ](#PVLAN)
-
-        - [Troubleshoot PVLAN](#troubleshoot-PVLAN)
+-        [Troubleshoot PVLAN](#troubleshoot-PVLAN)
 
 
 
