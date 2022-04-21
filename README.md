@@ -33,3 +33,19 @@
 | (config)# interface fa0/24                                        | inter  Interface fa0/24                                                           |
 | (config-if)# switchport mode private-vlan promiscuous             |  switch this type to  a promiscuous  VLAN                                         |
 | (config-if)# switchport private-vlan mapping 500 501,502          |  create a mapping between VLAN 500 (primary) and VLAN 502,502 (secondary).        | 
+
+
+
+
+
+
+
+
+
+###troubleshoot-PVLAN
+
+| Command                                                           | Description                                                                       |
+|:------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| SW1# show vlan private-vlan                                       |  gives us valuable information                                                    |
+| SW1# show vlan private-vlan type                                  |  gives us a quick overview of the private VLANs                                   | 
+
