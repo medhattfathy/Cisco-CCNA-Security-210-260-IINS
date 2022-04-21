@@ -30,8 +30,12 @@
 | Switch(config-if)# switchport port-security                          | enables the port security on a switch.                                            |
 | Switch(config-if)# switchport port-security maximum max-addr         | specify the maximum number of MAC addresses {1-1024}                              |
 | Switch(config-if)#switchport port-security mac-address 0013.0002.0023| define one or more MAC addresses that are allowed on a switch interface           |
-| 
+| Switch(config-if)# switchport port-security mac-address sticky       | configure a static address entry on an interface.                                 |
+| Switch(config-if)#switchport port-security violation restrict        | If a violation occurs, you want the port to be configured in restrict mode.       |
+| Switch(config-if)#switchport port-security violation shutdown        | If a violation occurs, you want the port to be configured in shutdown mode        |
+| Switch(config-if)#switchport port-security violation protect         | If a violation occurs, you want the port to be configured in protect mode         |
 
+![145](https://user-images.githubusercontent.com/88751099/164518916-a6243c72-e4ad-484d-a4a9-14ca74807560.png)
 
 
 ## PVLAN 
