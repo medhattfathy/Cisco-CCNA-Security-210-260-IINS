@@ -40,8 +40,6 @@
 
 
 
-
-
 ###troubleshoot-PVLAN
 
 | Command                                                           | Description                                                                       |
