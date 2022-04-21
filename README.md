@@ -8,7 +8,7 @@
 
 
 - [Port Security ](#Port-Security)
-    - [Port Security](#troubleshoot-Port-Security)
+    - [Troubleshoot Port Security](#troubleshoot-Port-Security)
 
 
 - [PVLAN ](#PVLAN)
@@ -36,6 +36,18 @@
 | Switch(config-if)#switchport port-security violation protect         | If a violation occurs, you want the port to be configured in protect mode         |
 
 ![145](https://user-images.githubusercontent.com/88751099/164518916-a6243c72-e4ad-484d-a4a9-14ca74807560.png)
+
+
+### troubleshoot-Port-Security
+
+| Command                                                              | Description                                                                       |
+|:---------------------------------------------------------------------|:----------------------------------------------------------------------------------|
+| Switch# show port-security interface FastEthernet 0/1                |                                                                                   |
+| Switch# show port-security address                                   |  Secure Mac Address Table                                                         |
+| Switch(config)# interface FastEthernet 0/2                           | if it  unused  interface                                                          |
+| Switch(config-if)# shutdown                                          |                                                                                   |
+
+
 
 
 ## PVLAN 
