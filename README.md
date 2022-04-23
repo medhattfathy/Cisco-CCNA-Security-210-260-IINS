@@ -94,5 +94,5 @@
 | Switch#conf t                                                     |                                                                                   |
 | Switch(config)#ip arp inspection vlan 100                         |  enable Dynamic ARP Inspection (DAI) on VLAN 100                                  |
 | Switch(config)#interface FastEthernet 0/4                         |                                                                                   |
-| Switch(config-if)#ip dhcp snooping trust                          | enable Interface Trust State                                                      |
-| 
+| Switch(config-if)#ip arp inspection trust                          | enable Interface Trust State                                                     |
+
